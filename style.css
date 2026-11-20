@@ -13,3 +13,13 @@
 .take-day .take{border:1px solid #354052;background:#232c3b;border-radius:11px;margin:7px 0;padding:11px;min-width:0}
 .take-day .take.active{border-color:#8d7cff;background:#2d3048}
 .take-info{min-width:0}.take-info strong{font-size:13px}.take-info small{font-size:11px}.take-day .take .actions{display:flex;gap:5px}.take-day .take button{margin:0;padding:9px;font-size:12px}
+
+/* v6: dim the entire muted track, including its waveform */
+.track{transition:background .18s ease}
+.track.track-muted{background:#171c26}
+.track.track-muted .track-label{background:#222936!important;color:#657184!important;opacity:1}
+.track.track-muted canvas{opacity:.20;filter:grayscale(1) brightness(.65);transition:opacity .18s,filter .18s}
+.track.track-muted .track-label::after{content:'×';position:absolute;right:6px;top:5px;color:#94a3b8}
+.song-row{display:flex;gap:9px;align-items:stretch;margin:8px 0}
+.song-row .song{flex:1;min-width:0;margin:0;overflow-wrap:anywhere}
+.song-delete{flex:none;padding:10px 13px;font-size:13px;background:#67303d!important;border:1px solid #a34959}
