@@ -1,7 +1,4 @@
-GitHub Pages 公開方法
-1. このZIPを展開
-2. 中のファイルをGitHubリポジトリのルートにアップロード
-3. Settings > Pages で main / root を公開
-4. HTTPSのURLをスマホで開き、ホーム画面に追加
-
-注意: 音声は端末内保存です。ブラウザのデータ削除で消える可能性があります。録音時はイヤホン推奨。
+Vocal Studio v4
+GitHub Pages の karaoke リポジトリ直下に ZIP 内の全ファイルをアップロードしてください。
+変更点: 波形 Canvas の幅計算、描画タイミング、CSS、PWA キャッシュ更新。
+既存の IndexedDB データは削除しません。
