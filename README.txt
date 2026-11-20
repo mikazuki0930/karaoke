@@ -1,4 +1,3 @@
-Vocal Studio v4
-GitHub Pages の karaoke リポジトリ直下に ZIP 内の全ファイルをアップロードしてください。
-変更点: 波形 Canvas の幅計算、描画タイミング、CSS、PWA キャッシュ更新。
-既存の IndexedDB データは削除しません。
+Vocal Studio v5
+変更点：トラック名タップでミュート切替（ミックス・書き出しにも反映）、録音テイクを日付別に表示。
+GitHub Pagesへ全ファイルをアップロードしてください。既存のIndexedDBは変更していません。
